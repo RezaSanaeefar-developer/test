@@ -5,6 +5,7 @@ namespace Signup\RezaModule\Model;
 use Magento\Framework\App\Config\ScopeConfigInterface;
 
 
+
 class Config
 {
     const XML_PATH_ENABLED = 'signup/general/enable';
