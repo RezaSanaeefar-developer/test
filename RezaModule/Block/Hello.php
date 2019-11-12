@@ -1,20 +1,29 @@
 <?php
-//
-//namespace  Signup\RezaModule\Block;
-//
-//use Magento\Framework\View\Template;
-//
-//
-//class Hello extends Template
-//{
-//
-//
-//    public function __construct(
-//        Context $context,
-//
-//        array $data = []
-//    ) {
-//        parent::__construct($context, $data);
-//    }
-//
-//}
+
+namespace  Signup\RezaModule\Block;
+
+use Magento\Framework\View\Template;
+
+
+/**
+ * Class Hello
+ * @package Signup\RezaModule\Block
+ */
+class Hello extends Template
+{
+
+
+    /**
+     * Hello constructor.
+     * @param Context $context
+     * @param array $data
+     */
+    public function __construct(
+        Context $context,
+
+        array $data = []
+    ) {
+        parent::__construct($context, $data);
+    }
+
+}
