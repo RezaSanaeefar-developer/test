@@ -1,5 +1,6 @@
 <?php
 
+declare(strict_types=1);
 namespace Signup\RezaModule\Controller\Adminhtml\Index;
 
 use Magento\Framework\Controller\ResultFactory;
