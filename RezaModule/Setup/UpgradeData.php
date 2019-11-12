@@ -13,6 +13,10 @@ use Magento\Framework\Setup\UpgradeDataInterface;
  */
 class UpgradeData implements UpgradeDataInterface
 {
+<<<<<<< HEAD
+=======
+
+>>>>>>> 50d2d3d4c66f2cbfbef09c068b1fb6b64c88ae24
     /**
      * @param ModuleDataSetupInterface $setup
      * @param ModuleContextInterface $context

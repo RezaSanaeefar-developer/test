@@ -3,7 +3,7 @@
 declare(strict_types=1);
 namespace Signup\RezaModule\Model\ResourceModel\Collection;
 
-use Signup\RezaModule\Model\item1;
+
 
 /**
  * Class Collection

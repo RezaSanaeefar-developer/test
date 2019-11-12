@@ -12,6 +12,10 @@ use Magento\Framework\App\Config\ScopeConfigInterface;
  */
 class Config
 {
+<<<<<<< HEAD
+=======
+
+>>>>>>> 50d2d3d4c66f2cbfbef09c068b1fb6b64c88ae24
     /**
      *
      */

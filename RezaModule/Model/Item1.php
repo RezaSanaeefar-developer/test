@@ -9,6 +9,10 @@ namespace Signup\RezaModule\Model;
  */
 class Item1 extends \Magento\Framework\Model\AbstractModel
 {
+<<<<<<< HEAD
+=======
+
+>>>>>>> 50d2d3d4c66f2cbfbef09c068b1fb6b64c88ae24
     /**
      *
      */
