@@ -1,12 +1,10 @@
 <?php
-
 declare(strict_types=1);
 namespace Signup\RezaModule\Controller\Index;
 
 use Magento\Framework\App\Action\Context;
 use Magento\Framework\Controller\ResultFactory;
 use Signup\RezaModule\Model\Item1;
-
 /**
  * Class Save
  * @package Signup\RezaModule\Controller\Index
@@ -21,7 +19,6 @@ class Save extends \Magento\Framework\App\Action\Action
      * @var \Magento\Framework\Stdlib\DateTime\DateTime
      */
     protected $date;
-
     /**
      * Save constructor.
      * @param Context $context
@@ -37,7 +34,6 @@ class Save extends \Magento\Framework\App\Action\Action
         $this->date = $date;
         parent::__construct($context);
     }
-
     /**
      * @return \Magento\Framework\App\ResponseInterface|\Magento\Framework\Controller\ResultInterface
      * @throws \Exception

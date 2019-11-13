@@ -1,9 +1,6 @@
 <?php
-
 declare(strict_types=1);
 namespace Signup\RezaModule\Model\ResourceModel\Collection;
-
-
 
 /**
  * Class Collection
