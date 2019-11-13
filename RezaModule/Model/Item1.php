@@ -1,9 +1,14 @@
 <?php
+
+declare(strict_types=1);
 namespace Signup\RezaModule\Model;
 
+/**
+ * Class Item1
+ * @package Signup\RezaModule\Model
+ */
 class Item1 extends \Magento\Framework\Model\AbstractModel
 {
-
     /**
      *
      */

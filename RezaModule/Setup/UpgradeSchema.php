@@ -1,5 +1,6 @@
 <?php
 
+declare(strict_types=1);
 namespace Signup\RezaModule\Setup;
 
 use Magento\Framework\DB\Ddl\Table;
@@ -7,9 +8,12 @@ use Magento\Framework\Setup\ModuleContextInterface;
 use Magento\Framework\Setup\SchemaSetupInterface;
 use Magento\Framework\Setup\UpgradeSchemaInterface;
 
+/**
+ * Class UpgradeSchema
+ * @package Signup\RezaModule\Setup
+ */
 class UpgradeSchema implements UpgradeSchemaInterface
 {
-
     /**
      * @param SchemaSetupInterface $setup
      * @param ModuleContextInterface $context
@@ -30,6 +34,5 @@ class UpgradeSchema implements UpgradeSchemaInterface
             );
         }
         $setup->endSetup();
-
     }
 }

@@ -1,9 +1,9 @@
 <?php
 
+declare(strict_types=1);
 namespace  Signup\RezaModule\Block;
 
 use Magento\Framework\View\Template;
-
 
 /**
  * Class Hello
@@ -11,8 +11,6 @@ use Magento\Framework\View\Template;
  */
 class Hello extends Template
 {
-
-
     /**
      * Hello constructor.
      * @param Context $context
@@ -25,5 +23,4 @@ class Hello extends Template
     ) {
         parent::__construct($context, $data);
     }
-
 }

@@ -1,11 +1,9 @@
+<h1><?= __('Signup page') ?>
+    
+    <?= /* @escapeNotVerified */ __('Sign up page') ?>
 
-
-
-<h1>Signup page</h1>
-///** @var \Signup\RezaModule\Hello  */
-<form action="<?php echo $this->getUrl("signup/index/save") ?>" method="post">
-    <label><b>Sign_Up</b><br>
-        <br><br>
+<form action="<?= $this->getUrl('signup/index/save') ?>" method="post">
+    <label><b><?=__('SignUp Page') ?>
         <input type="text" name="name">
         <input type="text" name="datepicker" id="datepicker" value="" class="datepicker">
         <script>

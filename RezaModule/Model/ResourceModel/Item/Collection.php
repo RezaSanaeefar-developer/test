@@ -1,8 +1,12 @@
 <?php
+
+declare(strict_types=1);
 namespace Signup\RezaModule\Model\ResourceModel\Collection;
 
-
-
+/**
+ * Class Collection
+ * @package Signup\RezaModule\Model\ResourceModel\Collection
+ */
 class Collection extends \Magento\Framework\Model\ResourceModel\Db\Collection\AbstractCollection
 {
     /**

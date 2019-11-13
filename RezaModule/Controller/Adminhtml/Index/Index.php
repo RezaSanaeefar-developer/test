@@ -1,9 +1,14 @@
 <?php
 
+declare(strict_types=1);
 namespace Signup\RezaModule\Controller\Adminhtml\Index;
 
 use Magento\Framework\Controller\ResultFactory;
 
+/**
+ * Class Index
+ * @package Signup\RezaModule\Controller\Adminhtml\Index
+ */
 class Index extends \Magento\Backend\App\Action
 {
     /**
