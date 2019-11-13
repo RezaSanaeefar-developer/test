@@ -1,8 +1,10 @@
 <?php
+
 declare(strict_types=1);
 namespace  Signup\RezaModule\Block;
 
 use Magento\Framework\View\Template;
+
 /**
  * Class Hello
  * @package Signup\RezaModule\Block

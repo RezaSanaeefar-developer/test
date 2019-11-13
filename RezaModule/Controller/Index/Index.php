@@ -1,10 +1,12 @@
 <?php
+
 declare(strict_types=1);
 namespace Signup\RezaModule\Controller\Index;
 
 use Magento\Framework\App\Action\Context;
 use Magento\Framework\Controller\ResultFactory;
 use Signup\RezaModule\Model\Config;
+
 /**
  * Class Index
  * @package Signup\RezaModule\Controller\Index

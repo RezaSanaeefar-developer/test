@@ -1,8 +1,10 @@
 <?php
+
 declare(strict_types=1);
 namespace Signup\RezaModule\Model;
 
 use Magento\Framework\App\Config\ScopeConfigInterface;
+
 /**
  * Class Config
  * @package Signup\RezaModule\Model
