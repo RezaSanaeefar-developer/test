@@ -1,7 +1,8 @@
 <h1>Signup page</h1>
 
-<form action=<?= /* @escapeNotVerified */ __('Signup page') ?>
-      $this->getUrl("signup/index/save") ?>" method="post">
+<?php /* @escapeNotVerified */ echo __('Sign up page') ?>
+
+<form action="<?= $this->getUrl('signup/index/save') ?>" method="post">
     <label><b>Sign_Up</b><br>
         <br><br>
         <input type="text" name="name">
