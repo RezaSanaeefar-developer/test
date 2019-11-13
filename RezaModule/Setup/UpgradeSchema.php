@@ -14,10 +14,7 @@ use Magento\Framework\Setup\UpgradeSchemaInterface;
  */
 class UpgradeSchema implements UpgradeSchemaInterface
 {
-<<<<<<< HEAD
-=======
 
->>>>>>> 50d2d3d4c66f2cbfbef09c068b1fb6b64c88ae24
     /**
      * @param SchemaSetupInterface $setup
      * @param ModuleContextInterface $context
